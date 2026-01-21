@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Easy Copy on YaKlass</title>
+        <link rel="stylesheet" href="popup.css">
+        <meta charset="UTF-8">
+    </head>
+    <body style="width: 250px;">
+	    <h3 class="author">made by no.id</h3>
+        <h1 style="margin-top: 30px">Easy Copy on YaKlass</h1>
+        <div>
+            <h4>Введите номер задания, до которого будет всё скопировано:</h4>
+            <div class="text-field text-field_floating">
+                <input class="text-field__input" id="last_exercise" type="number" placeholder="last exercise" min="1" step="1">
+                <label class="text-field__label">last exercise</label>
+            </div>
+        </div>
+        <div class="copy">
+            <button id="button">copy</button>
+            <label id="information"></label>
+            <input style="visibility: hidden;" checked type="checkbox" id="checkbox">
+        </div>
+        <script src="popup.js"></script>
+    </body>
+</html>

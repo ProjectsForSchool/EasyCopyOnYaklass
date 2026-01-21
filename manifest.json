@@ -1,0 +1,13 @@
+{
+    "name": "Easy Copy on YaKlass",
+    "description": "Helps copy text on YaKlass",
+    "version": "3.2",
+    "manifest_version": 3,
+    "icons": {"512": "icon.png"},
+    "action": {
+        "default_popup":"popup/popup.html"
+    },
+    "permissions": ["scripting", "activeTab", "tabs"],
+    "host_permissions": ["https://*/*"],
+    "background":{}
+}
