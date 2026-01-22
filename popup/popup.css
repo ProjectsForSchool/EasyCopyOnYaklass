@@ -63,7 +63,6 @@ body{
 .text-field__input {
     display: block;
     width: 100%;
-    height: calc(2.25rem + 2px);
     padding: 0.375rem 0.75rem;
     font-family: inherit;
     font-size: 1rem;
@@ -111,7 +110,7 @@ body{
 }
 
 .text-field_floating .text-field__input {
-    height: 8px;
+    height: 12px;
     line-height: 1.25;
     padding: 0.75rem 0.75rem;
     width: 200px;
@@ -147,4 +146,5 @@ body{
 .text-field_floating .text-field__input:not(:placeholder-shown)~.text-field__label {
     opacity: .65;
     transform: scale(.85) translateY(-.75rem) translateX(.15rem);
+
 }
